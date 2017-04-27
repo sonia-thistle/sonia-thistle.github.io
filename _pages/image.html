@@ -1,0 +1,11 @@
+---
+permalink: /images
+---
+
+{% include base_path %}
+
+{% for image in site.static_files %}
+    {% if image.path contains 'images/media' %}
+       <a href="{{ base_path }}{{ image.path }}"><img src="{{ base_path }}{{ image.path }}" alt="image" /></a>
+    {% endif %}
+{% endfor %}

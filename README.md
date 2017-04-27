@@ -1,2 +1,2 @@
-# sonia-thistle.github.io
-My Cover letter for Thistle- #hustleforthistle
+# hustleforthistlet
+Cover letter for Thistle.co
